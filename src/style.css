@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: #216583;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    
+}
+
+header{
+    background: #0c445c;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+  } 
+ h1{
+    color: #FAF0D7;
+   
+}
+h1 span{
+    color: #e2af2f;
+}
+ .end{
+    color: black;
+}
+
+
+.hero .multiply{
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #65c0ba;
+    border-radius: 30px;
+    gap: 10px;
+}
+
+.hero .multiply .num1{
+    background:  #FAF0D7;
+    padding: 20px;
+    min-width: 100%;
+}
+
+.hero .multiply .num2{
+    background:  #FAF0D7;
+    padding: 20px;
+    min-width: 100%;
+}
+
+.hero .multiply .multi{
+    background:  #e2af2f;
+    padding: 20px;
+    min-width: 100%;
+}
+
+.hero .container{
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #65c0ba;
+    border-radius: 30px;
+    gap: 10px;
+}
+
+.hero .container .randomNum1 , .randomNum2{
+    background:  #FAF0D7;
+    padding: 20px;
+    min-width: 100%;
+}
+
+
+.hero .container .randomNum1 p span , .randomNum2 p span{
+    color: #dd5656;
+    font-weight: bold;
+}
+.hero .numContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+    min-width: 100%;
+}
+.hero .container div{
+    width: 100%;
+    max-width: 42%;
+}
+.hero .numContainer div input{
+    padding: 8px;
+    border: none;
+    outline: none;
+    width: 100%;
+    background: #FAF0D7;
+    color:#dd5656;
+    font-weight: bold;
+}
+.hero .container button{
+    align-items: flex-end;
+    border: none;
+    outline: none;
+    background: #FAF0D7;
+    color: black;
+    font-weight: bold;
+    padding: 14px;
+    width: 100%;
+    font-size: 22px;
+    cursor: pointer;
+    transition: .4s;
+}
+.hero .container button:hover{
+    background-color: black;
+    color: #FAF0D7;
+}
